@@ -30,7 +30,7 @@ The following is an example configuration file for this:
     {
       "name": "Light",
       "tooltip": "Turn on the light",
-      "webhook": "xxx",
+      "webhook": "https://xxx",
       "data": {
         "scene": "nacht"
       },
@@ -39,7 +39,7 @@ The following is an example configuration file for this:
         {
           "name": "Nacht",
           "tooltip": "Turn off the light",
-          "webhook": "xxx",
+          "webhook": "https://xxx",
           "data": {
             "scene": "nacht"
           },
@@ -48,7 +48,7 @@ The following is an example configuration file for this:
         {
           "name": "Hell",
           "tooltip": "Turn off the light",
-          "webhook": "xxx",
+          "webhook": "https://xxx",
           "data": {
             "scene": "hell"
           },
@@ -57,7 +57,7 @@ The following is an example configuration file for this:
         {
           "name": "Schreibtisch",
           "tooltip": "Turn off the light",
-          "webhook": "xxx",
+          "webhook": "https://xxx",
           "data": {
             "scene": "schreibtisch"
           },

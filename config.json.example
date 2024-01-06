@@ -1,0 +1,43 @@
+{
+  "programTooltip": "HaSystray",
+  "actions": [
+    {
+      "name": "Light",
+      "tooltip": "Turn on the light",
+      "webhook": "xxx",
+      "data": {
+        "scene": "nacht"
+      },
+      "type": "POST",
+      "actions": [
+        {
+          "name": "Nacht",
+          "tooltip": "Turn off the light",
+          "webhook": "xxx",
+          "data": {
+            "scene": "nacht"
+          },
+          "type": "POST"
+        },
+        {
+          "name": "Hell",
+          "tooltip": "Turn off the light",
+          "webhook": "xxx",
+          "data": {
+            "scene": "hell"
+          },
+          "type": "POST"
+        },
+        {
+          "name": "Schreibtisch",
+          "tooltip": "Turn off the light",
+          "webhook": "xxx",
+          "data": {
+            "scene": "schreibtisch"
+          },
+          "type": "POST"
+        }
+      ]
+    }
+  ]
+}

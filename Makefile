@@ -10,7 +10,7 @@ build:
 
 install:
 	@echo "Installing..."
-	cp -R build/haSystray.app /Applications/haSystray.app
+	cp -R build/haSystray.app ~/Applications/haSystray.app
 	@echo "Done Installing..."
 
 clean:
